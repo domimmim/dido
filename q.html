@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/q.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&family=Raleway:wght@700&display=swap"rel="stylesheet">
+    <link rel="shortcut icon" href="images/lemon.ico">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div id="profile">
+                <div class="profilebox">
+                    <img src="./img/KakaoTalk_20220604_162254477.jpg" alt="profile">
+                </div>
+                <div class="info">
+                    <h1>Do mi rea</h1>
+                    <p>didohan2@gmail.com</p>
+                   
+                </div>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li>
+                        <a href="Interest">🍋<span class="tooltip-text">Interest</span></a>
+                    </li>
+                    <li>
+                        <a href="#keyword">🍋<span class="tooltip-text">keywords for me</span></a>
+                    </li>
+                    <li>
+                        <a href="#tell">🍋<span class="tooltip-text">what you want to say to me</span></a>
+                    </li>
+                    <li>
+                        <a href="#like">🍋<span class="tooltip-text">like</span></a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section id="Masthead_content">
+            <div class="container">
+                <div class="inner 1">
+                    <div class="text">
+                        <h2>Hollow I'm do mi rea !</h2>
+                        <p>풍부한 경험을 바탕으로 프로페셔널한 디자이너를 꿈꾸는 도미래 입니다.<br>저는 여러 분야를 가리지 않고 적극적으로 다자인에 대한 관심사를 넓혀나가고 있습니다.<br>
+                          저는 이번 디자인컴퓨팅 강의를 통해 디자인이너에게 필요한 역량을 갖춰 나가고 싶습니다.</p>
+                    </div>
+                </div>
+                <div class="inner 2">
+                    <div class="paper">
+                        <p>이름: 도미래<br>생년월일:2002.07.23(21세)<br>소속: 상명대학교 커뮤니케이션 디자인<br>MBTI: INFJ<br>사자자리💐</p>
+                    </div>
+                    <div class="flower">
+                        <img src="./img/3.jpg" alt="은방울꽃">
+                    </div>
+                    <div class="tape">
+                        <img src="./img/Washitape_pastelblue.png" alt="마스킹테이프">
+                        <img src="./img/다운로드.png" alt="마스킹테이프">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Interests">
+            <h2>관심 분야</h2>
+            <div class="inner">
+                <div class="InterestsFlex">
+                    <div class="front">
+                        <img src="./img/react.png" alt="react">
+                    </div>
+                    <div class="back">
+                        <div class="InterestsEl">편집디자인</div>
+                    </div>
+                </div>
+                <div class="InterestsFlex">
+                    <div class="front">
+                        <img src="./img/nextjs.png" alt="next.js">
+                    </div>
+                    <div class="back">
+                        <div class="InterestsEl">세라믹</div>
+                    </div>
+                </div>
+                <div class="InterestsFlex">
+                    <div class="front">
+                        <img src="./img/typescript.png" alt="typescript">
+                    </div>
+                    <div class="back">
+                        <div class="InterestsEl">일러스트</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="keyword">
+            <div class="inner">
+                <h2>나를 표현하는 키워드</h2>
+                <h3><a class="highlight type2">#밝은 #집순이 #쩝쩝박사</h3>
+                <p>항상 웃는 모습이 밝아 보입니다. <br>집에서 가만히 과제를 하거나 영화를 보는 경우가 많습니다. <br>예쁘고 맛있는 음식을 좋아해 <br>어디서든지 맛있는 메뉴를 잘 찾는 쩝쩝박사의 면모를 보입니다.</p>
+            </div>
+        </section>
+
+        <section id="tell">
+            <h2>내가 나에게 해주고 싶은 말</h2>
+            <input type="button" value="click me✨" onclick="
+                this.style.display='none'
+                document.querySelector('#coworkersText').innerHTML = `잘 했고 잘 해왔고 앞으로도 잘 할거야 👋<br>
+                조금만 더 힘내자<br> 포기하지 말고 좀 더 하면 더 좋은 결과가 널 기다려✨`
+            ">
+            <span id="coworkersText"></span>
+        </section>
+
+        <section id="like">
+            <h2>Like</h2>
+            <div class="inner">
+                <ul class="slider">
+                    <li class="slide active">
+                        <span>저는 매년 저의 모습을 사진으로<br>기록하는 것을 좋아합니다.</span>
+                    </li>
+                    <li class="slide">
+                        <span>한 곳만 지정해서 가진 않고(돈이 많이드는 취미지만요 😅) 매년 다른 곳에 다른 컨셉을 정하여 촬영합니다.<br>그 해의 남기고 싶은 분위기,표정,모습 등으로요!</span>
+                    </li>
+                    <li class="slide">
+                        <span>최근에는 숲속의 공주 컨셉으로 촬영을 다녀왔습니다. ✌️</span>
+                    </li>
+                    <li class="slide">
+                        <span>전시회를 다녀 오는것도 참 좋아는데, 최근 빛의벙커나 젠틀 몬스터 팝업에 다녀왔습니다.<br>전시회를 관람하면서 ✨ 작품의 느낌이나 의도를 감상하며, 다양한 아이디어를 얻고는 합니다.</span>
+                    </li>
+                </ul>
+                <div class="right-arrow">
+                    <span class="material-icons">arrow_forward</span>
+                </div>
+                <div class="left-arrow">
+                    <span class="material-icons">arrow_back</span>
+                </div>
+            </div>
+
+        </section>
+
+<input class="goupbtn" type="button" value="Top" onclick="clickme()"></div>
+        <footer>
+          <div class="inner">
+              <div class="sns_content">
+                  <ul class="sns">
+                      <li>
+                          <a href="https://www.instagram.com/do._.mimmi/">
+                              <span class="material-icons">home</span>
+                          </a>
+                          <li>
+                            <a href="https://m.blog.naver.com/PostList.naver?blogId=didohan0">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                            </a>
+                        </li>
+                      </li>
+                  </ul>
+              </div>
+              <p>Designed By</p>
+          </div>
+      </footer>
+  </div>
+</body>
+</html>
